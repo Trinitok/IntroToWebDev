@@ -43,4 +43,8 @@ router.get('/profdev', function(req, res) {
 	res.sendFile(path.join(__dirname, '..', 'public/html/profdev.html'));
 });
 
+router.get('/index2.html', function(req, res) {
+	res.sendFile(path.join(__dirname, '..', 'public/html/index2.html'));
+});
+
 module.exports = router;
