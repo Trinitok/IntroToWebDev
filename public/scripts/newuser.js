@@ -31,8 +31,10 @@ $(document).ready(function() {
                                 data: {
                                     username: $("#username").val(),
                                     password: $("#password").val(),
+                                    position: "scrub",
                                     alumnusStatus: false,
                                     profPoints: 0,
+                                    serveHours: 0,
                                     littles: [],
                                     initiationClass: 3,
                                     gradYear: $("#gradYear").val()
